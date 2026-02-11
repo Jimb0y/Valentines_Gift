@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #ffe5ec, #ffc2d1);
+}
+
+/* top section */
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* creative headline */
+.header_text {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    color: #d32f2f;
+    text-shadow: 2px 2px 0 white;
+}
+
+/* gif */
+.gif_container img {
+    width: 100%;
+    max-width: 380px;
+}
+
+/* message card */
+.message {
+    width: 90%;
+    max-width: 720px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* script title */
+.mes_header {
+    font-family: 'Pacifico', cursive;
+    color: #e91e63;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+/* message text */
+.mes_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* flower button */
+.flower_btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 14px 28px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff4d6d, #ff8fab);
+    border-radius: 40px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    transition: all 0.25s ease;
+}
+
+.flower_btn:hover {
+    transform: scale(1.08) translateY(-2px);
+    box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+}
